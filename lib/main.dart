@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_application_2/about_movie_page.dart';
 
 void main(List<String> args) {
   runApp(const MaterialApp(
@@ -33,7 +34,7 @@ class MovieAbout extends StatelessWidget {
         ),
         body: const TabBarView(
           children: [
-            Icon(Icons.directions_car),
+            AboutMovieWidget(),
             Icon(Icons.directions_transit),
           ],
         ),
