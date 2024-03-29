@@ -38,6 +38,14 @@ class MovieAbout extends StatelessWidget {
             Icon(Icons.directions_transit),
           ],
         ),
+        bottomSheet: Container(
+          padding: EdgeInsets.all(10),
+          width: MediaQuery.of(context).size.width,
+          child: ElevatedButton(
+            child: const Text('PROCEED'),
+            onPressed: () {},
+          ),
+        ),
       ),
     );
   }
